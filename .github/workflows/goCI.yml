@@ -50,5 +50,5 @@ jobs:
 
     - name: Install dependencies
       run: |
-        go get github.com/framela/goblin
-        
+        go get github.com/franela/goblin
+        go test -v
