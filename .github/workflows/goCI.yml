@@ -55,6 +55,7 @@ jobs:
         
     - name: Generate test report
       run: |
+        go test -v
         go test -v | go2xunit > report.xml
         ls
         
