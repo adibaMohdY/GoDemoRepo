@@ -45,4 +45,5 @@ jobs:
         ls
         cd remoteRepo
         ls
+        cat myText.txt
         cd ..
