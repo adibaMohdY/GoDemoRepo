@@ -30,4 +30,3 @@ jobs:
       
     - name: Check fie system
       run: ls
-        ls
