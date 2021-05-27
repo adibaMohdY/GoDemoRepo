@@ -29,4 +29,6 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Check fie system
-      run: ls
+      run: |
+        ls
+        cat calc.go
