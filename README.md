@@ -11,6 +11,6 @@ GoDemoRepo/.github/workflows/
       - creating a chat group and inviting bot into it
       - get ID of chat group via https://api.telegram.org/bot<TELEGRAM_TOKEN>/getUpdates
       - create and save secrets in Settings,
-              secrets.TELEGRAM_TO == ID of chat group
-              secrets.TELEGRAM_TOKEN == token
+              - secrets.TELEGRAM_TO == ID of chat group
+              - secrets.TELEGRAM_TOKEN == token
 
